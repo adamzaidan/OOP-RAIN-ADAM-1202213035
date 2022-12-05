@@ -2,7 +2,7 @@ public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("");
         
-        TransportasiAir transportasi = new TransportasiAir(20, 5000);
+        TransportasiAir transportasi = new TransportasiAir(100, 25000);
         transportasi.informasi();
         transportasi.berlayar();
         transportasi.berlabuh();

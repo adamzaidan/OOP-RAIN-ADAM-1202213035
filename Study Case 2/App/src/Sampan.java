@@ -21,7 +21,7 @@ public class Sampan extends TransportasiAir {
   
     @Override
     public void berlabuh() {
-      System.out.println("Transportasi air dengan jenis Sampan sedang berlabuh di pantai.");
+      System.out.println("Transportasi air dengan jenis Sampan sedang berlabuh di pelabuhan.");
     }
   
     public void berlabuh(int jangkar) {

@@ -19,13 +19,5 @@ public class App{
         handphone1.telfon(627384);
         handphone1.kirimSMS(63536);
         handphone1.kirimSMS(72833, 3445);
-       
-        
-
-
-
-
-
-
     }
 }

@@ -7,16 +7,16 @@ public class App {
         transportasi.berlayar();
         transportasi.berlabuh();
 
-        Sampan sampanbaru = new Sampan(10, 15000, 4);
-        sampanbaru.informasi();
-        sampanbaru.berlayar();
-        sampanbaru.berlabuh();
-        sampanbaru.berlabuh(1);
+        Sampan sampan1 = new Sampan(10, 15000, 4);
+        sampan1.informasi();
+        sampan1.berlayar();
+        sampan1.berlabuh();
+        sampan1.berlabuh(1);
 
-        Kapal kapalbaru = new Kapal(500, 100000, "TurboJet");
-        kapalbaru.informasi();
-        kapalbaru.berlayar();
-        kapalbaru.berlayar(350);
-        kapalbaru.berlabuh();;
+        Kapal kapal1 = new Kapal(500, 100000, "TurboJet");
+        kapal1.informasi();
+        kapal1.berlayar();
+        kapal1.berlayar(350);
+        kapal1.berlabuh();;
     }
 }
